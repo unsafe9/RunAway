@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{2b0492e7-0cd0-4fb0-a232-159bee7e7c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Main">
+      <UniqueIdentifier>{0a78aa96-5c3c-4a4c-84a0-cf7028d9e3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{fbe1b121-449d-4c7c-9c85-906b2db9d4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Main">
+      <UniqueIdentifier>{8d6498d7-7743-4a08-8158-be7457df21ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resouce">
+      <UniqueIdentifier>{3590ca2b-70ff-4630-b95b-f9249654a58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{34891c72-0755-4418-992a-7c9bb50c00a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Console">
+      <UniqueIdentifier>{f7162a37-9f6d-4d22-b76a-f20293f60082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Input">
+      <UniqueIdentifier>{9e88d64d-2410-494d-bbf1-31cc28cca8ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Define">
+      <UniqueIdentifier>{ba84f17d-4550-4b61-bfe3-aca8a9c0ccae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game">
+      <UniqueIdentifier>{ca088b4b-cde4-4c30-8493-eca82943d4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\Scene">
+      <UniqueIdentifier>{cd908e9e-548b-4234-8cea-f7504ea21054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\Object">
+      <UniqueIdentifier>{eba0e872-45d6-4963-bfc7-6de662b4e071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\TileMap">
+      <UniqueIdentifier>{e68462da-91b1-4104-8653-ff96d016620e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\SelectHero">
+      <UniqueIdentifier>{5023c04b-8b34-4ba6-a019-1477612a5325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Defence">
+      <UniqueIdentifier>{c6c9b4a5-e075-485e-99d3-c251e3221bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{413e3b75-a9d2-4cb8-bcd2-915a0074cb46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\User">
+      <UniqueIdentifier>{ddbd940b-a178-4bba-83a9-efbe4f7b4a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Enemy">
+      <UniqueIdentifier>{7d072947-83b0-4936-b468-0cda1382455b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Enemy\Circle">
+      <UniqueIdentifier>{71d3248a-28ff-4101-b4c9-0db4ebc38a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Enemy\Minion">
+      <UniqueIdentifier>{b8bf9f54-3644-46f9-ba7e-4f950d4e22f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Game\Object\Character">
+      <UniqueIdentifier>{3ee4f289-7a03-415b-ab3c-083d6885acb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Clear">
+      <UniqueIdentifier>{3dce94e1-e258-4eff-8ba5-74042e1d8cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\GameOver">
+      <UniqueIdentifier>{eef7eeb6-ee2d-4f55-a168-05f2727c67fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resouce\option">
+      <UniqueIdentifier>{b6b7f04e-c902-4d46-bf28-1ef77e92af54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resouce\character">
+      <UniqueIdentifier>{2d4da058-21cd-4221-8758-631185d0b7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resouce\neonsign">
+      <UniqueIdentifier>{c0f90425-af79-4fd1-9e67-676063d8d3b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SceneMain.cpp">
+      <Filter>Game\Scene\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Core\Game\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSelHero.cpp">
+      <Filter>Game\Scene\SelectHero</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Game\Object\User</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneField.cpp">
+      <Filter>Game\Scene\Defence</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCircle.cpp">
+      <Filter>Game\Object\Enemy\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyMinion.cpp">
+      <Filter>Game\Object\Enemy\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Core\Game\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Game\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneClear.cpp">
+      <Filter>Game\Scene\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameOver.cpp">
+      <Filter>Game\Scene\GameOver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneMain.h">
+      <Filter>Game\Scene\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Core\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Def.h">
+      <Filter>Core\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Core\Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Core\Game\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resouce</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSelHero.h">
+      <Filter>Game\Scene\SelectHero</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Game\Object\User</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneField.h">
+      <Filter>Game\Scene\Defence</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCircle.h">
+      <Filter>Game\Object\Enemy\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyMinion.h">
+      <Filter>Game\Object\Enemy\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Core\Game\Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneClear.h">
+      <Filter>Game\Scene\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameOver.h">
+      <Filter>Game\Scene\GameOver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resouce\character1.bmp">
+      <Filter>Resouce\character</Filter>
+    </Image>
+    <Image Include="Resouce\character2.bmp">
+      <Filter>Resouce\character</Filter>
+    </Image>
+    <Image Include="Resouce\character3.bmp">
+      <Filter>Resouce\character</Filter>
+    </Image>
+    <Image Include="Resouce\option_start.bmp">
+      <Filter>Resouce\option</Filter>
+    </Image>
+    <Image Include="Resouce\option_end.bmp">
+      <Filter>Resouce\option</Filter>
+    </Image>
+    <Image Include="Resouce\option_retry.bmp">
+      <Filter>Resouce\option</Filter>
+    </Image>
+    <Image Include="Resouce\Main.bmp">
+      <Filter>Resouce\neonsign</Filter>
+    </Image>
+    <Image Include="Resouce\GameOver.bmp">
+      <Filter>Resouce\neonsign</Filter>
+    </Image>
+    <Image Include="Resouce\Clear.bmp">
+      <Filter>Resouce\neonsign</Filter>
+    </Image>
+    <Image Include="Resouce\option_main.bmp">
+      <Filter>Resouce\option</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RunAway.rc">
+      <Filter>Resouce</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
